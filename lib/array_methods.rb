@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
   found_at_index = nil
   index = 0 
-  while found_at_index < 0 && index < array.length do
+  while found_at_index == nil && index < array.length do
     current_value = array[index]
     if current_value == value_to_find
       found_at_index = index
